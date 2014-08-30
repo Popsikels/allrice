@@ -1,0 +1,123 @@
+﻿* { 
+  margin: 0; 
+  padding: 0; 
+}
+
+
+
+body{
+margin:0px; 
+padding:0px; 
+height:100%; 
+width:100%;
+background: #b6d6fd;
+}
+
+.HeaderCont {
+background: #1A3380;
+    height: 40px;
+    left: 0;
+    width: 100%;
+    top: 0;
+    position:fixed;
+        z-index:1000;
+}
+
+
+.Header {
+    
+    float:left;
+    font-size: 16px;
+    color: #fff;
+    z-index:1001;
+    padding-left:20px;
+    margin-right:20px;
+    font-family: 'Arial', 'Trebuchet MS';
+    padding:0px 25px;
+}
+
+
+
+.Banner {
+    width: 1024px;
+height: 340px;
+margin-left:auto;
+margin-right:auto;
+background-image:url("../allrice.jpg");
+background-size: 100%;
+padding: 0px 0px 0px 0px;
+    margin-top: 45px;
+}
+
+.navigation{
+width: 1034px;
+height: 30px;
+margin-left:auto;
+margin-right:auto;
+background:#1A3380;
+font-family:Arial, Helvetica, Lucida Grande;
+-webkit-box-shadow: 0px 0px 10px 0px;
+font-size: 15px;
+}
+.navigation ul{ /*menu wrapper*/
+height: 50px;
+list-style:none;
+margin: 0px;
+padding: 0px;
+}
+.navigation li{ /*Mother Menu*/
+float:left;
+padding: 0px 0px 0px 15px;
+}
+.navigation li a{/*active links*/
+color:#fff;
+display:block;
+font-weight:normal;
+line-height:30px;
+margin:0px;
+padding: 0px 25px;
+text-align:center;
+text-decoration:none;
+
+}
+.navigation li a:hover{/*active links hover */
+background:#000062;
+color:#FFFFFF;
+text-decoration:none;}
+
+
+
+.navigation ul li:hover a{/*active top level link */
+background:#000062;
+color:#FFFFFF;
+text-decoration:none;
+}
+.navigation a span{
+display: block;
+width: auto;
+border-bottom: 2px solid #3083FF;
+}
+
+.page{
+Width: 1024px;
+Height: auto;
+background: white;
+margin-left:auto;
+margin-right:auto;
+padding: 0px 0px 0px 0px;
+text-align: center;
+}
+
+.footer{
+	width: 1024px;
+	height: 100px;
+    background-color: #EFF3F7;
+    border-top: 2px solid #D4DADF;
+	margin-left: auto;
+	margin-right: auto;
+    padding-top: 3px;
+    font-size: 16px;
+	text-align: center;
+	color: #3e3e3e;
+	font-family: calibri;
+}
